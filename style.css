@@ -31,6 +31,11 @@ body {
     text-align      : center;
 }
 
+.generate-btn:hover {
+    background-color: green;
+    border          : 8px solid goldenrod;
+}
+
 .generate-btn:focus {
     outline   : none;
     box-shadow: none;
@@ -81,6 +86,10 @@ input[type='text']:focus {
     margin-right  : -4px;
     border-radius : 10px;
     cursor        : pointer;
+}
+
+.button:hover {
+    background: #495BC3;
 }
 
 .blink-me {
